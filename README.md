@@ -16,6 +16,7 @@ Project Structure
 project/
 
 ├── tests/
+
 │   ├── test_login.py
 │   ├── test_signup.py
 │   └── test_payment.py
