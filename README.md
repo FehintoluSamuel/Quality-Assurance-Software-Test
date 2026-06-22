@@ -11,12 +11,11 @@ The tests simulate key user journeys of a web application, including:
 
 The project follows the Page Object Model (POM) design pattern to improve code readability, maintainability, and reusability.
 
-Project Structure
+## Project Structure
 
-project/
+```project/
 
 ├── tests/
-
 │   ├── test_login.py
 │   ├── test_signup.py
 │   └── test_payment.py
@@ -30,6 +29,7 @@ project/
 │   └── driver_setup.py
 │
 └── README.md
+```
 
 Folder Description
 
@@ -67,7 +67,7 @@ Example:
 
 from selenium.webdriver.common.by import By
 
-class LoginPage:
+### class LoginPage:
 
     USERNAME = (
         By.NAME,
